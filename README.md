@@ -125,12 +125,12 @@ export default function App() {
     fetchBooks();
   };
 
-  return (
-    <div style={{ width: "80%", margin: "auto", textAlign: "center" }}>
-      <h1>📚 Library Management App</h1>
-      <BookForm form={form} onChange={handleChange} onSubmit={handleSubmit} editId={editId} />
-      <BookTable books={books} onEdit={handleEdit} onDelete={handleDelete} />
-    </div>
+  // return (
+  //  <div style={{ width: "80%", margin: "auto", textAlign: "center" }}>
+  //    <h1>📚 Library Management App</h1>
+  //    <BookForm form={form} onChange={handleChange} onSubmit={handleSubmit} editId={editId} />
+ //     <BookTable books={books} onEdit={handleEdit} onDelete={handleDelete} />
+ //   </div>
   );
 }
 -----------------------------------------------------------------------
